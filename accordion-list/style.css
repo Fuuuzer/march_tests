@@ -35,7 +35,7 @@ h1 {
 .question {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .accordion_title {
@@ -52,7 +52,7 @@ h1 {
   margin-left: 10px;
 }
 
-.question .accordion_title.active::after {
+.accordion_title.active::after {
   content: '⬏';
   width: 10px;
   height: 10px;
@@ -79,7 +79,7 @@ h1 {
     max-height: 0;
   }
   to {
-    max-height: 250px;
+    max-height: 300px;
     opacity: 1;
   }
 }
