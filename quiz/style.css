@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #262626;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Bitter", serif;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+  margin-top: 50px;
+  gap: 80px;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.container__question1,
+.container__question2 {
+  width: 800px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.container__question1 {
+  background: #FE3C3C;
+}
+
+.container__question2 {
+  background: #3588FF;
+}
